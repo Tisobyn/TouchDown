@@ -14,6 +14,7 @@
 		3E9A3DB625DEAB5F00B6D7FD /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E9A3DB225DEAB5F00B6D7FD /* brand.json */; };
 		3E9A3DB725DEAB5F00B6D7FD /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E9A3DB325DEAB5F00B6D7FD /* product.json */; };
 		3E9A3DBD25DEAE8C00B6D7FD /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A3DBC25DEAE8C00B6D7FD /* NavigationBarView.swift */; };
+		3E9A3DC125DEB27B00B6D7FD /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A3DC025DEB27B00B6D7FD /* LogoView.swift */; };
 		3EED7D2B25DE7A4D00B745F9 /* TouchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED7D2A25DE7A4D00B745F9 /* TouchDownApp.swift */; };
 		3EED7D2D25DE7A4D00B745F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EED7D2C25DE7A4D00B745F9 /* ContentView.swift */; };
 		3EED7D2F25DE7A4F00B745F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED7D2E25DE7A4F00B745F9 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		3E9A3DB225DEAB5F00B6D7FD /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		3E9A3DB325DEAB5F00B6D7FD /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		3E9A3DBC25DEAE8C00B6D7FD /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		3E9A3DC025DEB27B00B6D7FD /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		3EED7D2725DE7A4D00B745F9 /* TouchDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EED7D2A25DE7A4D00B745F9 /* TouchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDownApp.swift; sourceTree = "<group>"; };
 		3EED7D2C25DE7A4D00B745F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		3E9A3DBB25DEAE6D00B6D7FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3E9A3DC025DEB27B00B6D7FD /* LogoView.swift */,
 				3E9A3DBC25DEAE8C00B6D7FD /* NavigationBarView.swift */,
 			);
 			path = Views;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EED7D2D25DE7A4D00B745F9 /* ContentView.swift in Sources */,
+				3E9A3DC125DEB27B00B6D7FD /* LogoView.swift in Sources */,
 				3E9A3DA325DEAAD500B6D7FD /* FooterView.swift in Sources */,
 				3EED7D2B25DE7A4D00B745F9 /* TouchDownApp.swift in Sources */,
 				3E9A3D9F25DEA9D900B6D7FD /* Constants.swift in Sources */,

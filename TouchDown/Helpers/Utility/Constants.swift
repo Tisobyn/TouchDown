@@ -12,11 +12,13 @@ struct AppData {
 }
 
 struct AppColors {
-    static let background: Color = Color("ColorBackgorund")
+    static let background: Color = Color("ColorBackground")
     static let grey: Color = Color(UIColor.systemGray4)
 }
 
 struct AppImages {
     static let logo = "logo-lineal"
+    static let darkLogo = "logo-dark"
     static let searchIcon = "magnifyingglass"
+    static let cartIcon = "cart"
 }
